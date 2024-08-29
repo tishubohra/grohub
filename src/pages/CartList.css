@@ -1,0 +1,108 @@
+/* CartList.css */
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/* CartList.css */
+body{
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-olive-green-background_23-2149724855.jpg?size=626&ext=jpg&ga=GA1.1.967060102.1708732800&semt=ais");
+}
+
+.total-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Lemon', serif;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 250px;
+}
+
+.total-button:hover {
+    background-color: white;
+    color:black;
+}
+.payment-button:hover {
+    background-color: white;
+    color:black;
+}
+
+body {
+    background-color: black; /* Set background color of the entire page to black */
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+.chead{
+    font-size: 50px;
+color:white;
+font-family: 'Lemon', serif;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: black; /* Set background color of each item to black */
+    padding: 10px; /* Add padding to create space around items */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    width: 80%; /* Set width to adjust the size */
+    border: 2px solid white; /* Add white border to each item */
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.cart-item img {
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 120px; /* Increase image width */
+}
+
+.cart-item span {
+    margin-right: 10px;
+    color: white; /* Set text color to white */
+}
+
+.cart-item button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.cart-item button:hover {
+    background-color: #45a049;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.total span {
+    font-weight: bold;
+}
+/* CartList.css */
+
+/* Your existing styles */
+
+.payment-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Lemon', serif;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+

@@ -1,0 +1,47 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333; /* Set your desired background color */
+}
+
+.transparent-button {
+  background: none;
+  border: none;
+  color: #fff; /* Set your desired text color */
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.transparent-button:hover {
+  color: #00bcd4; /* Set your desired hover color */
+}
+
+/* Add additional styling for the search bar */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.search-icon {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.search-icon:hover {
+  color: #00bcd4;
+}

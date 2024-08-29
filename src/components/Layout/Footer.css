@@ -1,0 +1,64 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.content{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.emails{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    
+}
+
+.main-c{
+    background-color: black;
+}
+.custom-footer-box {
+    border: 2px solid #fff; /* Specify border style, color, and width */
+    padding: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10%;
+    
+   
+}
+.custom-footer-container {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+    border: #fff;
+}
+.custom-footer-container h5{
+    font-family: 'Lemon', serif;
+}
+.custom-footer-container h3 {
+    color: #fff;
+    font-family: 'Lemon', serif;
+}
+
+
+.custom-footer-container p {
+    color: #ccc;
+}
+
+.custom-footer-icons {
+    margin-top: 20px;
+}
+
+.custom-footer-icons i {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.custom-last-footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+custom-footer-col custom-ft-2{
+    display: flex;
+}
